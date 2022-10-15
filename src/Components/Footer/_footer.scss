@@ -1,0 +1,55 @@
+footer{
+    margin-top: 150px;
+    .footer-list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #C1C0C0;
+        li{
+            h2{
+                font-family: "Work-Sans-bold";
+                color: $black;
+                margin-bottom: 15px;
+                margin-top: 22px;
+            }
+            img{
+                margin-bottom: 15px;
+            }
+            p{
+                width: 230px;
+                @extend %work-regular-16;
+                color: $gray;
+            }
+            .contacts{
+                display: flex;
+                list-style: none;
+                margin-top: 60px;
+                li{
+                    margin-right: 32px;
+                    .icon{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+            ul{
+                list-style: none;
+                span{
+                    @extend %work-regular-16;
+                    color: $gray;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+        
+    }
+    .autored{
+        margin-top: 70px;
+        margin-bottom: 50px;
+        @extend %work-regular-16;
+        font-size: 14px;
+        color: $gray;
+    }
+}

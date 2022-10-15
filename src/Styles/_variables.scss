@@ -1,0 +1,95 @@
+// Colors
+
+$white: #fff;
+$pink: #FF3C78;
+$black: #0A083A;
+$gray: #6C6B6B;
+$green: #02BE83;
+$blue: #315BFF;
+$lightgray: #F5F5F5;
+
+// Borders
+
+.border-4{
+    border-radius: 4px;
+}
+
+.border-8{
+    border-radius: 8px;
+}
+
+.border-16{
+    border-radius: 16px;
+}
+
+.border-24{
+    border-radius: 24px;
+}
+
+.button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+// Transition
+
+$motion: all 0.3 ease;
+
+// Font family
+
+%work-regular-16{
+    font-weight: 500;
+    font-family: "Work-Sans-medium";
+    font-size: 16px;
+    line-height: 24px;
+}
+
+%work-regular-18{
+    font-weight: 500;
+    font-family: "Work-Sans-medium";
+    font-size: 18px;
+    line-height: 32px;
+}
+
+%work-regular-20{
+    font-weight: 500;
+    font-family: "Work-Sans-medium";
+    font-size: 20px;
+    line-height: 32px;
+}
+
+%work-bold-24{
+    font-weight: 500;
+    font-family: "Work-Sans-medium";
+    font-size: 24px;
+    line-height: 32px;
+}
+
+%work-bold-20{
+    font-weight: 600;
+    font-family: "Work-Sans-bold";
+    font-size: 20px;
+    line-height: 32px;
+}
+
+%work-bold-32{
+    font-weight: 700;
+    font-family: "Work-Sans-extrabold";
+    font-size: 32px;
+    line-height: 40px;
+}
+
+%work-bold-48{
+    font-weight: 700;
+    font-family: "Work-Sans-extrabold";
+    font-size: 48px;
+    line-height: 32px;
+}
+
+%work-bold-72{
+    font-weight: 700;
+    font-family: "Work-Sans-extrabold";
+    font-size: 60px;
+    line-height: 80px;
+}

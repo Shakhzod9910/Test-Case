@@ -1,0 +1,24 @@
+@import "./Components/Navbar/_navbar.scss";
+@import "./Styles/_fonts.scss";
+@import "./Styles/_components.scss";
+@import "./Styles/variables";
+@import "./Pages/Footwear/footwear";
+@import "./Components/Footer/footer";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active{
+    color: black;
+    font-family: "Work-Sans-regular";
+}
+
+.container{
+    max-width: 1124px;
+    margin-right: auto;
+    margin-left: auto;
+}

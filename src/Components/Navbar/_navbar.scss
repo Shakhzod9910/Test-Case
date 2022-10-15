@@ -1,0 +1,71 @@
+@import "../../Styles/variables";
+.navbar{
+    background-color: $lightgray;
+    .navbar-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 52px;
+        .navlink{
+           display: flex;
+           list-style: none;
+           li{
+               margin-right: 56px;
+           }
+           .active{
+               a{
+                   color: $pink;
+                   position: relative;
+                   display: flex;
+                   justify-content: center;
+                   // align-items: flex-end;
+                   height: 45px;
+                   &::before{
+                       content: '';
+                       width: 8px;
+                       height: 8px;
+                       margin-top: 12px;
+                       position: absolute;
+                       bottom: 0;
+                       border-radius: 50%;
+                       background-color: $pink;
+                       
+                   }
+               }
+           }
+           a{
+               text-decoration: none;
+               @extend %work-regular-18;
+               color: $black;
+               transition: 0.3s all ease;
+               &:active{
+                   color: $pink;
+               }
+               &:hover{
+                   color: $pink;
+               }
+       
+           }
+           
+           
+        }
+        .icons{
+           width: 190px;
+           height: 45px;
+           ul{
+               display: flex;
+               max-width: 190px;
+               width: 100%;
+               justify-content: space-around;
+               
+               li{
+                   list-style: none;
+                   .icon{
+                       color: $black;
+                       cursor: pointer;
+                   }
+               }
+           }
+        }
+       }
+}
