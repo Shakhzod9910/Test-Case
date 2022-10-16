@@ -20,7 +20,7 @@ const Navbar = ()=>{
         
         <div className="navbar">
             <div className="navbar-wrapper container">
-            <img src="/Assets/Images/logo.svg" alt="logo"/>
+            <img src="/Assets/Images/logo.png" alt="logo"/>
                <ul className="navlink">
                  <li className={path === "/" ? "active" : "" }><Link to={"/"}>Footwear</Link></li>
                  <li className={path === "/about" ? "active" : "" }><Link to={"/about"}>About us</Link></li>

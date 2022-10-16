@@ -5,7 +5,7 @@ const Footer =()=>{
             <div className="footer-wrapper container">
                 <ul className="footer-list">
                     <li>
-                        <img src="/Assets/Images/logo.svg" alt="" />
+                        <img src="/Assets/Images/Logo.png" alt="" />
                         <p>Our shop is the best choice for buying footwear.</p>
                         <ul className="contacts">
                             <li><Icon icon="twitter"/></li>
